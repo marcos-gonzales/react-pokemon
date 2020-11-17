@@ -1,0 +1,34 @@
+.PokemonName {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.PokemonAbilityContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PokemonAbilityAndDamage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.PokemonDamage {
+  text-shadow: 1px 1px 2px snow;
+}
+
+.PokemonHealth {
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.PokemonHeart {
+  color: #ff3232;
+  font-size: 40px;
+}

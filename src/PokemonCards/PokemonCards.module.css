@@ -1,0 +1,55 @@
+.PokemonCards {
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+  border-radius: 4px;
+  margin: 15px;
+  padding: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 2px 1px 2px #c8c6c6;
+}
+
+.PokemonCardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.SearchInput {
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+.SearchInput input {
+  border-radius: 40px;
+  margin-left: 30px;
+  height: 30px;
+  width: 200px;
+  color: #4c4444;
+  padding-left: 4px;
+  background-color: #ededed;
+  padding-left: 7px;
+  font-size: 15px;
+  border: 2px solid #c7c3c3;
+  cursor: pointer;
+}
+
+.SearchInput img {
+  height: 60px;
+}
+
+.SearchInput label {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .PokemonCards {
+    min-width: 30%;
+  }
+}

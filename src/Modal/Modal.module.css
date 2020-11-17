@@ -1,0 +1,16 @@
+.Modal {
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  height: 80%;
+  width: 48%;
+  top: 12%;
+  left: 26%;
+  position: fixed;
+  z-index: 400;
+  border: 2px solid #312c2c;
+  box-shadow: 2px 4px 3px #433d3d;
+}
