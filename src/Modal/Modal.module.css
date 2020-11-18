@@ -28,6 +28,20 @@
   }
 }
 
+/* iphone 12 mini */
+@media only screen and (device-width: 780px) and (device-height: 360px) and (orientation: portrait) {
+  .Modal {
+    font-size: 20px !important;
+    height: 74% !important;
+    width: 70% !important;
+    left: 14% !important;
+    top: 3% !important;
+  }
+  .Modal img {
+    height: 125px !important;
+  }
+}
+
 @media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
   .Modal {
     height: 70%;
