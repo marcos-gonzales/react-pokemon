@@ -29,7 +29,7 @@
 }
 
 /* iphone 12 mini */
-@media only screen and (device-width: 780px) and (device-height: 360px) and (orientation: portrait) {
+@media only screen and (device-width: 360px) and (device-height: 780px) {
   .Modal {
     font-size: 20px !important;
     height: 74% !important;
