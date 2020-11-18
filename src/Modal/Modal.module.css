@@ -19,9 +19,11 @@
   .Modal {
     left: 20%;
     width: 65%;
+    height: 65%;
+    top: 6%;
   }
   .Modal img {
-    height: 100px;
-    width: 100px;
+    height: 100px !important;
+    width: 100px !important;
   }
 }
