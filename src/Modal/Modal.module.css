@@ -15,7 +15,36 @@
   box-shadow: 2px 4px 3px #433d3d;
 }
 
-@media only screen and (device-width: 812px) and (device-height: 375px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .Modal {
+    height: 57%;
+    font-size: 22px;
+    left: 26%;
+    top: 2%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .Modal {
+    font-size: 22px;
+    top: 0%;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+  .Modal {
+    height: 70%;
+    width: 70%;
+    left: 15%;
+    top: 4%;
+    font-size: 20px;
+  }
+  .Modal img {
+    height: 100px !important;
+  }
+}
+
+@media only screen and (device-width: 812px) and (device-height: 375px) {
   .Modal {
     font-size: 18px;
     height: 93%;
@@ -38,34 +67,19 @@
     top: 3% !important;
   }
   .Modal img {
-    height: 125px !important;
+    height: 100px !important;
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+@media only screen and (device-height: 360px) and (device-width: 780px) {
   .Modal {
-    height: 70%;
-    width: 70%;
-    left: 15%;
-    top: 4%;
+    font-size: 18px;
+    height: 98%;
+    width: 65%;
+    top: 0%;
+    left: 18%;
   }
   .Modal img {
-    height: 125px !important;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .Modal {
-    height: 57%;
-    font-size: 22px;
-    left: 26%;
-    top: 2%;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .Modal {
-    font-size: 22px;
-    top: 0%;
+    height: 60px !important;
   }
 }
