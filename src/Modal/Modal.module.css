@@ -15,6 +15,21 @@
   box-shadow: 2px 4px 3px #433d3d;
 }
 
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  .Modal {
+    height: 40% !important;
+    top: 3% !important;
+  }
+}
+
+@media only screen and (device-width: 1366px) and (device-height: 1024px) {
+  .Modal {
+    height: 58% !important;
+    top: 2% !important;
+    left: 27% !important;
+  }
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .Modal {
     height: 57%;
