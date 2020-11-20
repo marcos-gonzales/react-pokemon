@@ -30,7 +30,7 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (device-width: 768px) and (device-width: 1024px) and (orientation: portrait) {
   .Modal {
     height: 57%;
     font-size: 22px;
@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (device-width: 768px) and (device-width: 1024px) and (orientation: landscape) {
   .Modal {
     font-size: 22px;
     top: 0%;
@@ -88,13 +88,13 @@
 
 @media only screen and (device-height: 360px) and (device-width: 780px) {
   .Modal {
-    font-size: 18px;
-    height: 98%;
+    font-size: 20px;
+    height: 85%;
     width: 65%;
-    top: 0%;
+    top: 5%;
     left: 18%;
   }
   .Modal img {
-    height: 60px !important;
+    height: 75px !important;
   }
 }
